@@ -1,0 +1,542 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BB46722D1CABD0CA00320A18 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BB46722C1CABD0CA00320A18 /* main.m */; };
+		BB4672301CABD0CA00320A18 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BB46722F1CABD0CA00320A18 /* AppDelegate.m */; };
+		BB4672331CABD0CA00320A18 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB4672321CABD0CA00320A18 /* ViewController.m */; };
+		BB4672361CABD0CA00320A18 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB4672341CABD0CA00320A18 /* Main.storyboard */; };
+		BB4672391CABD0CA00320A18 /* LYChat.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BB4672371CABD0CA00320A18 /* LYChat.xcdatamodeld */; };
+		BB46723B1CABD0CA00320A18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB46723A1CABD0CA00320A18 /* Assets.xcassets */; };
+		BB46723E1CABD0CA00320A18 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB46723C1CABD0CA00320A18 /* LaunchScreen.storyboard */; };
+		BB46725A1CABD6B100320A18 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB4672591CABD6B100320A18 /* BaseViewController.m */; };
+		BB46725D1CABD6F100320A18 /* BReturnViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB46725C1CABD6F100320A18 /* BReturnViewController.m */; };
+		BB4672601CABD71800320A18 /* BaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = BB46725F1CABD71800320A18 /* BaseView.m */; };
+		BB4672631CABD72A00320A18 /* BaseTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = BB4672621CABD72A00320A18 /* BaseTableView.m */; };
+		BB4672671CABD74500320A18 /* BaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BB4672651CABD74500320A18 /* BaseTableViewCell.m */; };
+		BB4672681CABD74500320A18 /* BaseTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB4672661CABD74500320A18 /* BaseTableViewCell.xib */; };
+		BB46726B1CABD76800320A18 /* BaseCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = BB46726A1CABD76800320A18 /* BaseCollectionView.m */; };
+		BB46726F1CABD78F00320A18 /* CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BB46726D1CABD78F00320A18 /* CollectionViewCell.m */; };
+		BB4672701CABD78F00320A18 /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB46726E1CABD78F00320A18 /* CollectionViewCell.xib */; };
+		BB4672731CABD7B000320A18 /* BaseLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = BB4672721CABD7B000320A18 /* BaseLabel.m */; };
+		BB4672761CABD7C000320A18 /* BaseButton.m in Sources */ = {isa = PBXBuildFile; fileRef = BB4672751CABD7C000320A18 /* BaseButton.m */; };
+		BB4672791CABD7DD00320A18 /* BaseImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = BB4672781CABD7DD00320A18 /* BaseImageView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BB4672281CABD0CA00320A18 /* LYChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LYChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB46722C1CABD0CA00320A18 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BB46722E1CABD0CA00320A18 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BB46722F1CABD0CA00320A18 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BB4672311CABD0CA00320A18 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BB4672321CABD0CA00320A18 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BB4672351CABD0CA00320A18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BB4672381CABD0CA00320A18 /* LYChat.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LYChat.xcdatamodel; sourceTree = "<group>"; };
+		BB46723A1CABD0CA00320A18 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BB46723D1CABD0CA00320A18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BB46723F1CABD0CA00320A18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB4672581CABD6B100320A18 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		BB4672591CABD6B100320A18 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		BB46725B1CABD6F100320A18 /* BReturnViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BReturnViewController.h; sourceTree = "<group>"; };
+		BB46725C1CABD6F100320A18 /* BReturnViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BReturnViewController.m; sourceTree = "<group>"; };
+		BB46725E1CABD71800320A18 /* BaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseView.h; sourceTree = "<group>"; };
+		BB46725F1CABD71800320A18 /* BaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseView.m; sourceTree = "<group>"; };
+		BB4672611CABD72A00320A18 /* BaseTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTableView.h; sourceTree = "<group>"; };
+		BB4672621CABD72A00320A18 /* BaseTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTableView.m; sourceTree = "<group>"; };
+		BB4672641CABD74500320A18 /* BaseTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTableViewCell.h; sourceTree = "<group>"; };
+		BB4672651CABD74500320A18 /* BaseTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTableViewCell.m; sourceTree = "<group>"; };
+		BB4672661CABD74500320A18 /* BaseTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BaseTableViewCell.xib; sourceTree = "<group>"; };
+		BB4672691CABD76800320A18 /* BaseCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseCollectionView.h; sourceTree = "<group>"; };
+		BB46726A1CABD76800320A18 /* BaseCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseCollectionView.m; sourceTree = "<group>"; };
+		BB46726C1CABD78F00320A18 /* CollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewCell.h; sourceTree = "<group>"; };
+		BB46726D1CABD78F00320A18 /* CollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewCell.m; sourceTree = "<group>"; };
+		BB46726E1CABD78F00320A18 /* CollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
+		BB4672711CABD7B000320A18 /* BaseLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseLabel.h; sourceTree = "<group>"; };
+		BB4672721CABD7B000320A18 /* BaseLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseLabel.m; sourceTree = "<group>"; };
+		BB4672741CABD7C000320A18 /* BaseButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseButton.h; sourceTree = "<group>"; };
+		BB4672751CABD7C000320A18 /* BaseButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseButton.m; sourceTree = "<group>"; };
+		BB4672771CABD7DD00320A18 /* BaseImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseImageView.h; sourceTree = "<group>"; };
+		BB4672781CABD7DD00320A18 /* BaseImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseImageView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BB4672251CABD0CA00320A18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BB46721F1CABD0CA00320A18 = {
+			isa = PBXGroup;
+			children = (
+				BB46722A1CABD0CA00320A18 /* LYChat */,
+				BB4672291CABD0CA00320A18 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BB4672291CABD0CA00320A18 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BB4672281CABD0CA00320A18 /* LYChat.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BB46722A1CABD0CA00320A18 /* LYChat */ = {
+			isa = PBXGroup;
+			children = (
+				BB46722E1CABD0CA00320A18 /* AppDelegate.h */,
+				BB46722F1CABD0CA00320A18 /* AppDelegate.m */,
+				BB4672541CABD68800320A18 /* Base */,
+				BB4672451CABD42000320A18 /* AllPage */,
+				BB4672521CABD42900320A18 /* MyTools */,
+				BB4672531CABD43E00320A18 /* ThirdParty */,
+				BB4672311CABD0CA00320A18 /* ViewController.h */,
+				BB4672321CABD0CA00320A18 /* ViewController.m */,
+				BB4672341CABD0CA00320A18 /* Main.storyboard */,
+				BB46723A1CABD0CA00320A18 /* Assets.xcassets */,
+				BB46723C1CABD0CA00320A18 /* LaunchScreen.storyboard */,
+				BB46723F1CABD0CA00320A18 /* Info.plist */,
+				BB4672371CABD0CA00320A18 /* LYChat.xcdatamodeld */,
+				BB46722B1CABD0CA00320A18 /* Supporting Files */,
+			);
+			path = LYChat;
+			sourceTree = "<group>";
+		};
+		BB46722B1CABD0CA00320A18 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BB46722C1CABD0CA00320A18 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BB4672451CABD42000320A18 /* AllPage */ = {
+			isa = PBXGroup;
+			children = (
+				BB4672461CABD42000320A18 /* ContactPage */,
+				BB46724A1CABD42000320A18 /* LastMessagePage */,
+				BB46724E1CABD42000320A18 /* MePage */,
+			);
+			path = AllPage;
+			sourceTree = "<group>";
+		};
+		BB4672461CABD42000320A18 /* ContactPage */ = {
+			isa = PBXGroup;
+			children = (
+				BB4672471CABD42000320A18 /* Model */,
+				BB4672481CABD42000320A18 /* View */,
+				BB4672491CABD42000320A18 /* ViewController */,
+			);
+			path = ContactPage;
+			sourceTree = "<group>";
+		};
+		BB4672471CABD42000320A18 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BB4672481CABD42000320A18 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BB4672491CABD42000320A18 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		BB46724A1CABD42000320A18 /* LastMessagePage */ = {
+			isa = PBXGroup;
+			children = (
+				BB46724B1CABD42000320A18 /* Model */,
+				BB46724C1CABD42000320A18 /* View */,
+				BB46724D1CABD42000320A18 /* ViewController */,
+			);
+			path = LastMessagePage;
+			sourceTree = "<group>";
+		};
+		BB46724B1CABD42000320A18 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BB46724C1CABD42000320A18 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BB46724D1CABD42000320A18 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		BB46724E1CABD42000320A18 /* MePage */ = {
+			isa = PBXGroup;
+			children = (
+				BB46724F1CABD42000320A18 /* Model */,
+				BB4672501CABD42000320A18 /* View */,
+				BB4672511CABD42000320A18 /* ViewController */,
+			);
+			path = MePage;
+			sourceTree = "<group>";
+		};
+		BB46724F1CABD42000320A18 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BB4672501CABD42000320A18 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BB4672511CABD42000320A18 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		BB4672521CABD42900320A18 /* MyTools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MyTools;
+			sourceTree = "<group>";
+		};
+		BB4672531CABD43E00320A18 /* ThirdParty */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ThirdParty;
+			sourceTree = "<group>";
+		};
+		BB4672541CABD68800320A18 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				BB4672551CABD68800320A18 /* Model */,
+				BB4672561CABD68800320A18 /* View */,
+				BB4672571CABD68800320A18 /* ViewController */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		BB4672551CABD68800320A18 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BB4672561CABD68800320A18 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BB46725E1CABD71800320A18 /* BaseView.h */,
+				BB46725F1CABD71800320A18 /* BaseView.m */,
+				BB4672711CABD7B000320A18 /* BaseLabel.h */,
+				BB4672721CABD7B000320A18 /* BaseLabel.m */,
+				BB4672741CABD7C000320A18 /* BaseButton.h */,
+				BB4672751CABD7C000320A18 /* BaseButton.m */,
+				BB4672771CABD7DD00320A18 /* BaseImageView.h */,
+				BB4672781CABD7DD00320A18 /* BaseImageView.m */,
+				BB4672611CABD72A00320A18 /* BaseTableView.h */,
+				BB4672621CABD72A00320A18 /* BaseTableView.m */,
+				BB4672691CABD76800320A18 /* BaseCollectionView.h */,
+				BB46726A1CABD76800320A18 /* BaseCollectionView.m */,
+				BB46726C1CABD78F00320A18 /* CollectionViewCell.h */,
+				BB46726D1CABD78F00320A18 /* CollectionViewCell.m */,
+				BB46726E1CABD78F00320A18 /* CollectionViewCell.xib */,
+				BB4672641CABD74500320A18 /* BaseTableViewCell.h */,
+				BB4672651CABD74500320A18 /* BaseTableViewCell.m */,
+				BB4672661CABD74500320A18 /* BaseTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BB4672571CABD68800320A18 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				BB4672581CABD6B100320A18 /* BaseViewController.h */,
+				BB4672591CABD6B100320A18 /* BaseViewController.m */,
+				BB46725B1CABD6F100320A18 /* BReturnViewController.h */,
+				BB46725C1CABD6F100320A18 /* BReturnViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BB4672271CABD0CA00320A18 /* LYChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB4672421CABD0CA00320A18 /* Build configuration list for PBXNativeTarget "LYChat" */;
+			buildPhases = (
+				BB4672241CABD0CA00320A18 /* Sources */,
+				BB4672251CABD0CA00320A18 /* Frameworks */,
+				BB4672261CABD0CA00320A18 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LYChat;
+			productName = LYChat;
+			productReference = BB4672281CABD0CA00320A18 /* LYChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BB4672201CABD0CA00320A18 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Lxc.Yzc.Zxx;
+				TargetAttributes = {
+					BB4672271CABD0CA00320A18 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = BB4672231CABD0CA00320A18 /* Build configuration list for PBXProject "LYChat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BB46721F1CABD0CA00320A18;
+			productRefGroup = BB4672291CABD0CA00320A18 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BB4672271CABD0CA00320A18 /* LYChat */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BB4672261CABD0CA00320A18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB4672681CABD74500320A18 /* BaseTableViewCell.xib in Resources */,
+				BB46723E1CABD0CA00320A18 /* LaunchScreen.storyboard in Resources */,
+				BB46723B1CABD0CA00320A18 /* Assets.xcassets in Resources */,
+				BB4672361CABD0CA00320A18 /* Main.storyboard in Resources */,
+				BB4672701CABD78F00320A18 /* CollectionViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BB4672241CABD0CA00320A18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB4672671CABD74500320A18 /* BaseTableViewCell.m in Sources */,
+				BB4672631CABD72A00320A18 /* BaseTableView.m in Sources */,
+				BB4672391CABD0CA00320A18 /* LYChat.xcdatamodeld in Sources */,
+				BB46725D1CABD6F100320A18 /* BReturnViewController.m in Sources */,
+				BB4672601CABD71800320A18 /* BaseView.m in Sources */,
+				BB46725A1CABD6B100320A18 /* BaseViewController.m in Sources */,
+				BB4672331CABD0CA00320A18 /* ViewController.m in Sources */,
+				BB4672301CABD0CA00320A18 /* AppDelegate.m in Sources */,
+				BB46722D1CABD0CA00320A18 /* main.m in Sources */,
+				BB4672791CABD7DD00320A18 /* BaseImageView.m in Sources */,
+				BB4672731CABD7B000320A18 /* BaseLabel.m in Sources */,
+				BB4672761CABD7C000320A18 /* BaseButton.m in Sources */,
+				BB46726F1CABD78F00320A18 /* CollectionViewCell.m in Sources */,
+				BB46726B1CABD76800320A18 /* BaseCollectionView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BB4672341CABD0CA00320A18 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB4672351CABD0CA00320A18 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BB46723C1CABD0CA00320A18 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB46723D1CABD0CA00320A18 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BB4672401CABD0CA00320A18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BB4672411CABD0CA00320A18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BB4672431CABD0CA00320A18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LYChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LiangYangZhang.LYChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BB4672441CABD0CA00320A18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LYChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LiangYangZhang.LYChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BB4672231CABD0CA00320A18 /* Build configuration list for PBXProject "LYChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB4672401CABD0CA00320A18 /* Debug */,
+				BB4672411CABD0CA00320A18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB4672421CABD0CA00320A18 /* Build configuration list for PBXNativeTarget "LYChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB4672431CABD0CA00320A18 /* Debug */,
+				BB4672441CABD0CA00320A18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BB4672371CABD0CA00320A18 /* LYChat.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BB4672381CABD0CA00320A18 /* LYChat.xcdatamodel */,
+			);
+			currentVersion = BB4672381CABD0CA00320A18 /* LYChat.xcdatamodel */;
+			path = LYChat.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BB4672201CABD0CA00320A18 /* Project object */;
+}
